@@ -1,0 +1,332 @@
+@import url("https://fonts.googleapis.com/css2?family=Handjet:wght@300;400;500;600&family=Lato:ital,wght@0,700;1,300;1,400&family=Poppins:ital,wght@0,300;1,400;1,500;1,600&family=Roboto:ital,wght@1,300;1,400;1,500;1,700&display=swap");
+/* HEADER */
+
+@media screen and (max-width: 730px) {
+    .nav-bar {
+        background-color: transparent;
+        padding: 1.5rem 1.2rem;
+        width: 100%;
+    }
+    .nav-item {
+        display: none;
+    }
+    .login-button {
+        display: none;
+    }
+    .mobile-menu-icon {
+        display: block;
+    }
+    .mobile-menu-icon button {
+        background-color: transparent;
+        border: none;
+        cursor: pointer;
+    }
+    .mobile-menu ul {
+        /*         box-shadow: 10px 10px 10px #ddd;
+ */
+        width: 60%;
+        height: 33vh;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        padding-bottom: 1rem;
+        margin: 0 auto;
+    }
+    .mobile-menu .nav-item {
+        display: block;
+        padding-top: 1.2rem;
+    }
+    .mobile-menu .nav-link {
+        color: #f00066;
+        font-weight: 500;
+    }
+    .mobile-menu .nav-link:hover {
+        color: #ddd;
+    }
+    .mobile-menu .login-button {
+        display: block;
+        padding: 1rem 2rem;
+    }
+    .mobile-menu .login-button button {
+        width: 100%;
+    }
+    .open {
+        display: block;
+    }
+}
+
+/* HEADER */
+
+/* PAINEL */
+
+@media (max-width: 600px) {
+    html{
+        scroll-behavior: smooth;
+    }
+    .whats-link {
+        animation: float 2s ease-in-out infinite;
+        position: fixed;
+        width: 60px;
+        height: 60px;
+        bottom: 40px;
+        right: 13px;
+        background-color: #47e864;
+        color: #fff;
+        text-align: center;
+        border-radius: 50px;
+        font-size: 30px;
+        box-shadow: 1px 1px 2px #888;
+        z-index: 1000;
+        transition: 0.3s ease;
+    }
+    @keyframes float {
+        0%,
+        100% {
+            transform: translateY(0);
+        }
+        50% {
+            transform: translateY(-10px);
+        }
+    }
+    .whats-link:hover {
+        background-color: #191919;
+        color: #47e864;
+        opacity: 1;
+        transform: scale(1.1);
+    }
+    .fa-whatsapp {
+        margin-top: 16px;
+    }
+    /* PAINEL */
+
+    .conteudo-principal .paineis .seta {
+        height: 25px;
+        width: 25px;
+    }
+
+    /* PAINEL */
+
+    /* SOBRE */
+
+    .sobre {
+        background-color: #D4D5D9;
+    }
+
+    .sobre .imgs-sobre {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        margin-top: 10px;
+    }
+
+    .sobre .imgs-sobre img {
+        height: 220px;
+        width: 150px;
+        margin: 5px;
+    }
+
+    .sobre h2 {
+        color: #f00066;
+        font-weight: 600;
+        text-align: center;
+        padding: 15px 0;
+        font-family: "Poppins", sans-serif;
+    }
+
+    .sobre p {
+        color: #191919;
+        text-align: center;
+        font-family: "Poppins", sans-serif;
+        font-weight: 500;
+        font-size: 16px;
+    }
+
+    /* SOBRE */
+
+    /* OFERECIMENTOS */
+
+    .oferecimentos {
+        background-color: cadetblue;
+        height: 100%;
+    }
+
+    .oferecimentos .ofc-container {
+        background-color: #ddd;
+        height: 100vh;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .ofc-container h3 {
+        color: #f00066;
+        text-align: center;
+        margin-top: 20px;
+        font-family: "Poppins", sans-serif;
+        font-weight: 700;
+        font-size: 20px;
+        text-transform: uppercase;
+    }
+
+    .ofc-container .card {
+        -webkit-box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.61);
+        -moz-box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.61);
+        box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.61);
+        height: 290px;
+        width: 290px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+        flex-direction: column;
+        margin: 8px;
+        border: 1px solid #041133;
+        border-radius: 10px;
+        transition: 0.3s ease-in-out;
+    }
+
+    .ofc-container .card:hover {
+        background-color: #f00066;
+        color: #ffffff;
+        transform: scale(0.9);
+    }
+
+    .card .material-symbols-outlined {
+        font-size: 35px;
+        font-weight: bold;
+        margin: 20px;
+    }
+    /* OFERECIMENTOS */
+
+    /* SERVIÇOS */
+
+    .servicos {
+        background-color: red;
+    }
+
+    .servicos h2 {
+        color: #f00066;
+        text-align: center;
+        font-family: "Poppins", sans-serif;
+        font-weight: 600;
+        font-size: 20px;
+        padding: 25px 0px;
+        text-transform: uppercase;
+    }
+
+    .container-imgs {
+        background-color: #ddd;
+        width: 100%;
+    }
+    .container-imgs .desc-servicos {
+        text-align: start;
+        padding: 15px 0px;
+        color: #4b3c41;
+        font-size: 17px;
+        font-weight: 600;
+        font-family: "Lato", sans-serif;
+    }
+
+    .container-imgs .imgs {
+        column-count: 3;
+        height: 300px;
+    }
+    .container-imgs .imgs img {
+        height: 120px;
+        width: 120px;
+        margin: 5px;
+    }
+    .container-imgs .precos {
+        background-color: #ddd;
+        width: 100%;
+    }
+    .container-imgs .precos .tbl-precos {
+        -webkit-box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.61);
+        -moz-box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.61);
+        box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.61);
+        width: 100%;
+        column-count: 2;
+        column-rule: 1px solid #041133;
+    }
+    .container-imgs .precos .tbl-precos p {
+        color: #ff6800;
+        text-align: center;
+        margin: 25px;
+        font-size: 17px;
+        font-weight: 500;
+    }
+
+    .container-imgs .precos .tbl-precos strong {
+        color: #212934;
+        font-size: 14px;
+    }
+    /* SERVIÇOS */
+    /* LOCALIZAÇÃO */
+
+    .localizacao {
+        background-color: #191919;
+        height: 80vh;
+        width: 100%;
+    }
+
+    .localizacao h3 {
+        color: #f00066;
+        text-align: center;
+        text-transform: uppercase;
+        font-weight: 500;
+        padding: 20px 0px;
+    }
+
+    .localizacao .lok {
+        height: 60vh;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 30px;
+    }
+    /* LOCALIZAÇÃO */
+    /* FOOTER */
+
+    .footer {
+        background-color: #ddd;
+        margin-top: 0.1rem;
+        text-align: center;
+        padding: 2rem 0;
+    }
+    
+    .footer h2 {
+        color: #212934;
+        font-size: 18px;
+        font-weight: 500;
+        letter-spacing: 2px;
+        margin-bottom: 20px;
+    }
+    .redes-sociais{
+        height: 55px;
+        width: 100%;
+    }
+    .footer .outer-shadow{
+        color: #000;
+        font-size: 22px;
+        font-weight: 600;
+        text-decoration: none;
+        margin: 10px;
+        transition: 0.3s ease;
+    }
+    .redes-sociais .insta:hover{
+        color: #f00066;
+    }
+    .redes-sociais .whats:hover{
+          color: #47e864;
+    }
+    .redes-sociais .tiktok:hover{
+        color: #191919;
+    }
+    /* FOOTER */
+}
