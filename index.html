@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+        <link
+            rel="stylesheet"
+            href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0"
+        />
+        <link
+            rel="stylesheet"
+            href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0"
+        />
+        <link
+            rel="stylesheet"
+            href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0"
+        />
+        <link
+            rel="stylesheet"
+            href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0"
+        />
+
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Handjet:wght@300;400;500;600&family=Poppins:ital,wght@0,300;1,400;1,500;1,600&family=Roboto:ital,wght@1,300;1,400;1,500;1,700&display=swap"
+            rel="stylesheet"
+        />
+
+        <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        />
+        <link rel="stylesheet" href="assets/css/painel.css" />
+        <link rel="stylesheet" href="assets/css/header.css" />
+        <link rel="stylesheet" href="assets/css/responsive.css" />
+
+        <title>Salão de Beleza</title>
+    </head>
+    <body>
+        <header>
+            <a
+                class="whats-link"
+                href="https://web.whatsapp.com/send?phone=5599111122233"
+                target="_blank"
+            >
+                <i class="fa-brands fa-whatsapp"></i>
+            </a>
+            <nav class="nav-bar">
+                <div class="logo">
+                    <h1>Logo</h1>
+                </div>
+                <div class="nav-list">
+                    <ul>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">Início</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">o salão</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link"> Serviços</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link"> Localização</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link"> Contato</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="mobile-menu-icon">
+                    <button onclick="menuShow()">
+                        <img
+                            class="icon"
+                            src="assets/img/menu_white_36dp.svg"
+                            alt=""
+                        />
+                    </button>
+                </div>
+            </nav>
+            <div class="mobile-menu">
+                <ul>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Início</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#sobre" class="nav-link">o salão</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#services" #services class="nav-link">
+                            Serviços</a
+                        >
+                    </li>
+                    <li class="nav-item">
+                        <a href="#lok" class="nav-link"> Localização</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#contato" class="nav-link"> Contato</a>
+                    </li>
+                </ul>
+            </div>
+        </header>
+
+        <main class="conteudo-principal" id="projetos">
+            <section class="paineis">
+                <h1 class="titulo">Salão de beleza 💅</h1>
+                <div class="imagem-painel projeto1 mostrar"></div>
+                <div class="imagem-painel projeto2"></div>
+                <div class="imagem-painel projeto3"></div>
+
+                <a href="#" id="btn-voltar" class="seta btn-voltar">Voltar</a>
+                <a href="#" id="btn-avancar" class="seta btn-avancar"
+                    >Avançar</a
+                >
+
+                <a href="https://web.whatsapp.com/send?phone=5599111122233">
+                    <button class="btn-agend">Agendar Horario 🕐</button>
+                </a>
+            </section>
+
+            <section class="sobre" id="sobre" data-aos="fade-up">
+                <h2>Sobre o Salão</h2>
+
+                <p>
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                    Autem totam tempore ad eos, expedita quisquam dicta aperiam
+                    architecto repellat officiis culpa quia.
+                </p>
+
+                <div class="imgs-sobre">
+                    <img src="assets/img/pessoa-sobre.jpg" alt="" />
+                    <img src="assets/img/sobre2.jpg" alt="" />
+                    <img src="assets/img/sobre3.jpg" alt="" />
+                    <img src="assets/img/sobre1.jpg" alt="" />
+                </div>
+
+                <hr />
+                <br />
+                <div class="desc-sobre">
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur, adipisicing
+                        elit. Autem totam tempore ad eos, expedita quisquam
+                        dicta aperiam architecto repellat officiis culpa quia.
+                        Asperiores voluptas saepe dolorem tempore sapiente.
+                        Nulla, reiciendis.
+                    </p>
+                </div>
+            </section>
+
+            <section class="oferecimentos" id="" data-aos="fade-down">
+                <div>
+                    <div class="ofc-container">
+                        <hr />
+                        <h3>O que oferecemos</h3>
+                        <hr />
+                        <hr />
+
+                        <div class="card">
+                            <span class="material-symbols-outlined">
+                                verified
+                            </span>
+
+                            <p>Tratamentos Completos</p>
+                        </div>
+
+                        <div class="card">
+                            <span class="material-symbols-outlined">
+                                self_care
+                            </span>
+
+                            <p>Uso de Métodos Diferenciados</p>
+                        </div>
+
+                        <div class="card">
+                            <span class="material-symbols-outlined">
+                                grade
+                            </span>
+
+                            <p>Atendimento em Espaço Exclusivo</p>
+                        </div>
+
+                        <div class="card">
+                            <span class="material-symbols-outlined">
+                                person_search
+                            </span>
+
+                            <p>Profissionais de Alta Qualidade</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="servicos" id="services" data-aos="fade-up">
+                <div class="container-imgs">
+                    <div class="desc-servicos">
+                        <h2 class="h2">nossos serviços</h2>
+                        <p>
+                            unhas postiça Realista se assemelham a unhas
+                            naturais, perfeitas para quem tem unhas fracas e
+                            quebradiças,além de serem super resistentes protegem
+                            e proporcionam o crescimento saudável da unha.
+                        </p>
+                    </div>
+                    <hr />
+                    <div class="imgs">
+                        <img src="assets/img/unha1.jpg" alt="unha1" />
+                        <img src="assets/img/unha2.jpg" alt="unha1" />
+                        <img src="assets/img/unha3.jpg" alt="unha1" />
+                        <img src="assets/img/unha4.jpg" alt="unha1" />
+                        <img src="assets/img/unha5.jpg" alt="unha1" />
+                        <img src="assets/img/unha6.jpg" alt="unha1" />
+                    </div>
+
+                    <hr />
+                    <div class="precos" data-aos="fade-up">
+                        <h2>tabela de preços</h2>
+                        <div class="tbl-precos">
+                            <p>Pé e mão simples: <strong> $ 30,00 </strong></p>
+                            <p>Pé e mão decorado: <strong> $ 32,00 </strong></p>
+                            <p>só mão: <strong> $ 15,00 </strong></p>
+                            <p>só pé: <strong> $ 15,00 </strong></p>
+                            <p>
+                                pé e mão Masculino: <strong> $ 25,00 </strong>
+                            </p>
+                            <p>mão com postiça: <strong> $ 25,00 </strong></p>
+                            <p>
+                                mão com postiça: + pé <strong> $ 40,00 </strong>
+                            </p>
+                            <p>
+                                postiça encapsulado: <strong> $ 45,00 </strong>
+                            </p>
+                            <p>spo dos pés: <strong> $ 30,00 </strong></p>
+                            <p>
+                                spo dos pés: + unha do pé
+                                <strong> $ 45,00 </strong>
+                            </p>
+                            <p>Pintura: <strong> $ 8,00 </strong></p>
+                        </div>
+
+                        <div class="alongamento">
+                            <h2>alongamento</h2>
+                            <div class="tbl-precos">
+                                <p>
+                                    Fibra de vidro: <strong> $ 90,00 </strong>
+                                </p>
+                                <p>
+                                    blindagem fiber: <strong> $ 70,00 </strong>
+                                </p>
+                                <p>
+                                    manutenção simples:
+                                    <strong> $ 50,00 </strong>
+                                </p>
+                                <p>
+                                    decoração encapsulado:
+                                    <strong> $ 20,00 </strong>
+                                </p>
+                                <p>
+                                    manutenção + Pintura:
+                                    <strong> $ 60,00 </strong>
+                                </p>
+                                <p>
+                                    francesa reversa:
+                                    <strong> $ 150,00 </strong>
+                                </p>
+                                <p>unha caida: <strong> $ 5,00 </strong></p>
+                                <p>romoção: <strong> $ 20,00 </strong></p>
+                                <p>
+                                    remoção: + unha da mão
+                                    <strong> $ 35,00 </strong>
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="depilacao">
+                            <h2>depilação</h2>
+                            <div class="tbl-precos">
+                                <p>
+                                    Perna Completa: <strong> $ 30,00 </strong>
+                                </p>
+                                <p>Perna meia: <strong> $ 15,00 </strong></p>
+                                <p>buço: <strong> $ 5,00 </strong></p>
+                                <p>axila: <strong> $ 10,00 </strong></p>
+                                <p>Contorno: <strong> $ 40,00 </strong></p>
+                            </div>
+                        </div>
+
+                        <div class="desc-servicos">
+                            <h2>Cabelo - sombrancelha</h2>
+                            <p>
+                                ‘’Tudo é um conjunto na mulher. A sobrancelha, o
+                                cabelo, a roupa, a maquiagem. Todos esses
+                                elementos precisam estar em harmonia’’,
+                            </p>
+                        </div>
+                        <hr />
+                        <div class="imgs" data-aos="fade-down">
+                            <img src="assets/img/cabelo1.jpg" alt="cabelo 1" />
+                            <img src="assets/img/cabelo2.jpg" alt="celha 1" />
+                            <img src="assets/img/cabelo3.jpg" alt=" cabelo 2" />
+                            <img
+                                src="assets/img/sombrancelha1.jpg"
+                                alt="celha 2"
+                            />
+                            <img
+                                src="assets/img/sombrancelha2.jpg"
+                                alt="cabelo 3"
+                            />
+                            <img
+                                src="assets/img/sombrancelha3.jpg"
+                                alt="celha 3"
+                            />
+                        </div>
+
+                        <div class="botox">
+                            <h2>botox</h2>
+                            <div class="tbl-precos">
+                                <p>Cabelo P: <strong> $ 40,00 </strong></p>
+                                <p>Cabelo M: <strong> $ 50,00 </strong></p>
+                                <p>Cabelo G: <strong> $ 60,00 </strong></p>
+                                <p>Cabelo GG: <strong> $ 70,00 </strong></p>
+                            </div>
+                        </div>
+
+                        <div class="inteligente">
+                            <h2>inteligente</h2>
+                            <div class="tbl-precos">
+                                <p>Cabelo P: <strong> $ 80,00 </strong></p>
+                                <p>Cabelo M: <strong> $ 100,00 </strong></p>
+                                <p>Cabelo G: <strong> $ 140,00 </strong></p>
+                                <p>Cabelo GG: <strong> $ 170,00 </strong></p>
+                            </div>
+                        </div>
+
+                        <div class="definitiva-organica">
+                            <h2>definitiva - organica</h2>
+                            <div class="tbl-precos">
+                                <p>Cabelo P: <strong> $ 130,00 </strong></p>
+                                <p>Cabelo M: <strong> $ 150,00 </strong></p>
+                                <p>Cabelo G: <strong> $ 180,00 </strong></p>
+                                <p>Cabelo GG: <strong> $ 220,00 </strong></p>
+                            </div>
+                        </div>
+
+                        <div class="liso-terapia">
+                            <h2>liso - terapia</h2>
+                            <div class="tbl-precos">
+                                <p>Cabelo P: <strong> $ 130,00 </strong></p>
+                                <p>Cabelo M: <strong> $ 150,00 </strong></p>
+                                <p>Cabelo G: <strong> $ 160,00 </strong></p>
+                                <p>Cabelo GG: <strong> $ 190,00 </strong></p>
+                            </div>
+                        </div>
+
+                        <div class="tratamentos">
+                            <h2>tratamentos</h2>
+                            <div class="tbl-precos">
+                                <p>Cabelo P: <strong> $ 50,00 </strong></p>
+                                <p>Cabelo M: <strong> $ 35,00 </strong></p>
+                                <p>Cabelo G: <strong> $ 35,00 </strong></p>
+                                <p>Cabelo GG: <strong> $ 40,00 </strong></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="localizacao" id="lok" data-aos="fade-up">
+                <h3>l o c a l i z a ç ã o</h3>
+                <div class="lok">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15914.524772854846!2d-38.651484014845636!3d-4.291626183238681!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7b8cb5f93544363%3A0x50ccf36672a12916!2sBarreira%2C%20CE%2C%2062795-000!5e0!3m2!1spt-BR!2sbr!4v1691520298889!5m2!1spt-BR!2sbr"
+                        width="600"
+                        height="450"
+                        style="border: 0"
+                        allowfullscreen=""
+                        loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"
+                    ></iframe>
+                </div>
+            </section>
+        </main>
+
+        <footer class="footer" id="contato" data-aos="fade-down">
+            <div class="container">
+                <h2>Nós envie uma mensagem!</h2>
+                <div class="redes-sociais">
+                    <a
+                        href="https://www.instagram.com/victorscript/"
+                        class="outer-shadow insta"
+                    >
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                    <a
+                        href="https://api.whatsapp.com/send?phone=558599112235&text=ol%C3%A1!%20me%20interessei%20pelo%20seu%20trabalho."
+                        class="outer-shadow whats"
+                    >
+                        <i class="fab fa-whatsapp"></i>
+                    </a>
+                    <a href="#" class="outer-shadow tiktok">
+                        <i class="fa-brands fa-tiktok"></i>
+                    </a>
+                </div>
+            </div>
+        </footer>
+
+        <script src="assets/js/script.js"></script>
+        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+        <script>
+            AOS.init({
+                duration: 1000,
+            });
+        </script>
+    </body>
+</html>
